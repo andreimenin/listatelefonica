@@ -1,0 +1,48 @@
+Para executar o sistema, siga estas instruções:
+
+
+
+1* Baixe e instale o kit de desenvolvedor Java:
+https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+
+2* Baixe e instale a IDE Eclipse: 
+https://www.eclipse.org/downloads/
+*Baixe e instale o MySQL Workbench : https://dev.mysql.com/downloads/workbench/
+	*Configure-o com o user 'root' senha 'q1w2e3r4'
+	*Crie uma base de dados chamada 'listatelefonica'
+
+
+3* Baixe o Tomcat (servidor local): 
+https://tomcat.apache.org/download-80.cgi
+ 
+4* Extraia o Tomcat em uma pasta
+
+5* crie uma pasta chamada 'workspace'
+
+6* Copie o projeto na pasta 'workspace'
+
+7* Abra o Eclipse
+
+8* Escolha a pasta 'workspace' como referência
+
+9* Vá em File > Import > General > Existing Projects Into WorkSpace >
+Escolha a pasta do projeto que foi copiado
+
+10* Window>Preferences>Runtime Environments>Add... 
+
+11* Escolha o diretório em que o TomCat foi extraído
+	*Apply and close
+
+12* Procure pela Aba 'Server' > clique com o botão direito do mouse > New > Server>
+ Procure pela versao compatível com o TomCat que foi adicionado anteriormente> Escolha-o e 
+clique em 'Finish'
+
+14* Clique com o botão direito no TomCat adicionado > escolha 'Add and remove' > escolha o projeto > clique em 'Finish'
+
+15* Clique com o botão direito no projeto > Run As > Run on Server
+
+
+
+
+
+
